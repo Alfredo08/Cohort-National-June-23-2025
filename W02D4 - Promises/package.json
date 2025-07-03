@@ -1,0 +1,16 @@
+{
+  "name": "w02d4---promises",
+  "version": "1.0.0",
+  "description": "[Github Repository](https://github.com/Alfredo08/Cohort-National-June-23-2025/tree/main/W02D4%20-%20Promises) | [Vimeo Video Recording]()",
+  "main": "1-callbacks.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6"
+  }
+}
