@@ -1,5 +1,5 @@
 # W03 D4 | Security and Real World HTTP Servers
-[Github Repository]() | [Vimeo Video Recording]()
+[Github Repository](https://github.com/Alfredo08/Cohort-National-June-23-2025/tree/main/W03D4%20-%20%20Security%20and%20Real%20World%20HTTP%20Servers) | [Vimeo Video Recording](https://vimeo.com/1100404280/c370c14d38?share=copy)
 
 ## Topics to cover
 
