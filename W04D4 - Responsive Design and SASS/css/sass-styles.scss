@@ -1,0 +1,62 @@
+/* Variables */
+$title-font-size: 40px;
+$text-color: green;
+
+h1{
+    font-size: $title-font-size;
+    color: $text-color;
+    font-style: italic;
+}
+
+h2{
+    font-size: $title-font-size;
+}
+
+/* Nesting */
+.navbar{
+    background-color: aqua;
+    .menu{
+        color: black;
+        li{
+            padding: 50px;
+            &:hover{
+                background-color: beige;
+            }
+            &.special{
+                color: red;
+            }
+        }
+    }
+    .special{
+        font-weight: bold;
+    }
+}
+
+/* Inheritance */
+.extra-size{
+    @extend h1;
+    border: 1px solid blue;
+}
+
+/* Functions - mixins */
+@mixin theme($color, $background, $font, $border-color){
+    color: $color;
+    background-color: $background;
+    font-size: $font;
+    border-width: 5px;
+    border-style: dashed;
+    border-color: $border-color;
+}
+
+.item-one{
+    @include theme(white, black, 30px, red);
+    font-weight: bold;
+}
+
+.item-two{
+    @include theme(aqua, gray, 40px, blue);
+}
+
+.item-four{
+    @include theme(orange, black, 60px, pink);
+}

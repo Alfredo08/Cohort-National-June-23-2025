@@ -1,5 +1,5 @@
 # W04 D4 | Responsive Design and SASS
-[Github Repository]() | [Vimeo Video Recording]()
+[Github Repository](https://github.com/Alfredo08/Cohort-National-June-23-2025/tree/main/W04D4%20-%20Responsive%20Design%20and%20SASS) | [Vimeo Video Recording](https://vimeo.com/1102294857/6b11050e1a?share=copy)
 
 ## Topics to cover
 

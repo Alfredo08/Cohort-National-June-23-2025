@@ -1,0 +1,66 @@
+/* Variables */
+h1, .extra-size {
+  font-size: 40px;
+  color: green;
+  font-style: italic;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+/* Nesting */
+.navbar {
+  background-color: aqua;
+}
+.navbar .menu {
+  color: black;
+}
+.navbar .menu li {
+  padding: 50px;
+}
+.navbar .menu li:hover {
+  background-color: beige;
+}
+.navbar .menu li.special {
+  color: red;
+}
+.navbar .special {
+  font-weight: bold;
+}
+
+/* Inheritance */
+.extra-size {
+  border: 1px solid blue;
+}
+
+/* Functions - mixins */
+.item-one {
+  color: white;
+  background-color: black;
+  font-size: 30px;
+  border-width: 5px;
+  border-style: dashed;
+  border-color: red;
+  font-weight: bold;
+}
+
+.item-two {
+  color: auqa;
+  background-color: gray;
+  font-size: 40px;
+  border-width: 5px;
+  border-style: dashed;
+  border-color: blue;
+}
+
+.item-four {
+  color: orange;
+  background-color: black;
+  font-size: 60px;
+  border-width: 5px;
+  border-style: dashed;
+  border-color: pink;
+}
+
+/*# sourceMappingURL=sass-styles.css.map */
